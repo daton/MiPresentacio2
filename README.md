@@ -3,7 +3,7 @@
 
 ### Ajuste de un **ImageView** con código mas
 
-Usamos el método **setImageDrawable() que recibe un argumento de tipo Drawable como se muestra el ejemplo siguiente:
+Usamos el método **setImageDrawable()** que recibe un argumento de tipo Drawable como se muestra el ejemplo siguiente:
 
 ``
 imagen.setImageDrawable(resources.getDrawable(R.mipmap.arte,applicationContext.theme))
