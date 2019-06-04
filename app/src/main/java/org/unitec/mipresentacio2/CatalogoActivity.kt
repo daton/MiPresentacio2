@@ -14,18 +14,15 @@ class CatalogoActivity : AppCompatActivity() {
         when (item.itemId) {
             R.id.navigation_home -> {
                 textMessage.setText(R.string.title_home)
-                imagen.setImageDrawable(resources.getDrawable(R.mipmap.arte,applicationContext.theme))
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_dashboard -> {
                 textMessage.setText(R.string.title_dashboard)
-                imagen.setImageDrawable(resources.getDrawable(R.drawable.arqui,applicationContext.theme))
 
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_notifications -> {
                 textMessage.setText(R.string.title_notifications)
-                imagen.setImageDrawable(resources.getDrawable(R.mipmap.gallo,applicationContext.theme))
 
                 return@OnNavigationItemSelectedListener true
             }
