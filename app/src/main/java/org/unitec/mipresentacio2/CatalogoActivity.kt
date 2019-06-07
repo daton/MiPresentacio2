@@ -12,20 +12,26 @@ class CatalogoActivity : AppCompatActivity() {
     private lateinit var textMessage: TextView
     private val onNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
         when (item.itemId) {
-            R.id.navigation_home -> {
-                textMessage.setText(R.string.title_home)
+            R.id.nav_inicio -> {
+                textMessage.setText("Diseñador Juan Carlos")
                 return@OnNavigationItemSelectedListener true
             }
-            R.id.navigation_dashboard -> {
-                textMessage.setText(R.string.title_dashboard)
+            R.id.nav_diseno -> {
+                textMessage.setText("Mis Diseños")
 
                 return@OnNavigationItemSelectedListener true
             }
-            R.id.navigation_notifications -> {
-                textMessage.setText(R.string.title_notifications)
+            R.id.nav_animacion -> {
+                textMessage.setText("Mis animaciones")
 
                 return@OnNavigationItemSelectedListener true
             }
+            R.id.nav_contacto -> {
+                textMessage.setText("Escribenos!!")
+
+                return@OnNavigationItemSelectedListener true
+            }
+
         }
         false
     }
