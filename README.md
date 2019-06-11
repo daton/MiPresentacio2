@@ -11,8 +11,8 @@ imagen.setImageDrawable(resources.getDrawable(R.mipmap.arte,applicationContext.t
 
 ##  Para  reproducir un video implementa el siguiente código
 
-``
-//Video
+```
+
         val uri=Uri.parse("https://sierra-guadalupe.org/videito.mp4")
         videoView.setVideoURI(uri)
         videoView.requestFocus()
@@ -21,5 +21,5 @@ imagen.setImageDrawable(resources.getDrawable(R.mipmap.arte,applicationContext.t
         videoView.setOnCompletionListener {
             videoView.start()
         }
-``
+```
 
