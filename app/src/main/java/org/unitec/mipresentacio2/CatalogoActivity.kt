@@ -14,20 +14,25 @@ class CatalogoActivity : AppCompatActivity() {
         when (item.itemId) {
             R.id.nav_inicio -> {
                 textMessage.setText("Diseñador Juan Carlos")
+                imagen.setImageDrawable(resources.getDrawable(R.mipmap.gallo,applicationContext.theme))
+
                 return@OnNavigationItemSelectedListener true
             }
             R.id.nav_diseno -> {
                 textMessage.setText("Mis Diseños")
+                imagen.setImageDrawable(resources.getDrawable(R.mipmap.arte))
 
                 return@OnNavigationItemSelectedListener true
             }
             R.id.nav_animacion -> {
                 textMessage.setText("Mis animaciones")
+                imagen.setImageDrawable(resources.getDrawable(R.mipmap.diseno))
 
                 return@OnNavigationItemSelectedListener true
             }
             R.id.nav_contacto -> {
                 textMessage.setText("Escribenos!!")
+                imagen.setImageDrawable(resources.getDrawable(R.mipmap.arqui))
 
                 return@OnNavigationItemSelectedListener true
             }
