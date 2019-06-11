@@ -21,5 +21,5 @@ imagen.setImageDrawable(resources.getDrawable(R.mipmap.arte,applicationContext.t
         videoView.setOnCompletionListener {
             videoView.start()
         }
-
 ``
+
